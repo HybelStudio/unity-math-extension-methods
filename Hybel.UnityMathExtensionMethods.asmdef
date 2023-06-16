@@ -1,0 +1,16 @@
+{
+    "name": "Hybel.UnityMathExtensionMethods",
+    "rootNamespace": "Hybel.ExtensionMethods",
+    "references": [
+        "GUID:3355c75d26e33ba49a6e6ee71179011d"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
