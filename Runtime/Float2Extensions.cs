@@ -1,4 +1,6 @@
+using System;
 using Unity.Mathematics;
+using System.Collections.Generic;
 
 namespace Hybel.ExtensionMethods
 {

@@ -1,4 +1,5 @@
-﻿using Unity.Mathematics;
+﻿using System.Collections.Generic;
+using Unity.Mathematics;
 
 namespace Hybel.ExtensionMethods
 {
@@ -114,6 +115,19 @@ namespace Hybel.ExtensionMethods
         /// </summary>
         public static int2 Clamp(this int2 vector, int2? min = null, int2? max = null) =>
             vector.Clamp(min?.x, min?.y, max?.x, max?.y);
+
+        /// <summary>
+        /// Translates a group of points.
+        /// </summary>
+        public static IEnumerable<int2> Translate(this IEnumerable<int2> points, int2 translation)
+        {
+            var result = new List<int2>();
+
+            foreach (int2 point in points)
+                result.Add(point + translation);
+
+            return result;
+        }
 
         /// <summary>
         /// Converts a <see cref="int2"/> into a C# matrix.
