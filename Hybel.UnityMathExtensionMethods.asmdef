@@ -2,6 +2,7 @@
     "name": "Hybel.UnityMathExtensionMethods",
     "rootNamespace": "Hybel.ExtensionMethods",
     "references": [
+        "Unity.Mathematics",
         "Hybel.ExtensionMethods"
     ],
     "includePlatforms": [],
